@@ -1,0 +1,372 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
+
+        <title>Modern and elegant sidebar</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sidebar">
+
+                <div class="profile">
+                    <div class="user-img">
+                      <img src="images/avatar/avatar.jpg" alt="" />
+                    </div>
+                    <div class="details">
+                      <p class="h1">Carlos Alcalá</p>
+                      <p class="h2">UX/UI Designer</p>
+                    </div>
+                </div>
+
+                <div class="nav">
+                    <div class="section">
+                        <p class="h3">Home</p>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="active">
+                                    <i class="iconsax" icon-name="grid-apps-2"></i>
+                                    <span class="navname">Overview</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="calendar-1"></i>
+                                    <span class="navname">Scheduled</span>
+                                  </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="mail"></i>
+                                    <span class="navname">Overview</span>
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <br>
+
+                    <div class="section">
+                        <p class="h3">Customers</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="grid-apps-2"></i>
+                                    <span class="navname">Projects</span>
+                                    <i class="iconsax" icon-name="grid-apps-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="calendar-1"></i>
+                                    <span class="navname">Released</span>
+                                  </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="mail"></i>
+                                    <span class="navname">Comments</span>
+                                  </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                  <i class="icon ph-bold ph-user"></i>
+                                  <span class="text">Audience</span>
+                                  <i class="arrow ph-bold ph-caret-down"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                  <li>
+                                    <a href="#">
+                                      <span class="text">Users</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#">
+                                      <span class="text">Subscribers</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                        </ul>
+                    </div>
+
+                    <br>
+                    
+                    <div class="section">
+                        <p class="h3">Media</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="picture"></i>
+                                    <span class="navname">Images</span>
+                                  </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="play-circle"></i>
+                                    <span class="navname">Video</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <br>
+                    
+                    <div class="section">
+                        <p class="h3">Preferences</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="grid-apps-2"></i>
+                                    <span class="navname">Overview</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconsax" icon-name="calendar-1"></i>
+                                    <span class="navname">Scheduled</span>
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    <!-- Jquery -->
+
+<!-- Inicio de documento  -->
+<!DOCTYPE html>
+<!-- Codigo html -->
+<html lang="en">
+    <!-- Inicio Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
+        <!-- Titulo de proyecto -->
+        <title>Modern and elegant sidebar</title>
+    </head>
+    <!-- Fin Head -->
+
+    <!-- Inicio Body -->
+    <body>
+
+        <!-- Inicio container -->
+        <div class="container">
+
+            <!-- Inicio Sidebar -->
+            <div class="sidebar">
+
+                <div class="floating-btn">
+                    <i class="iconsax" icon-name="chevron-right"></i>
+                </div>
+
+                <!-- Inicio perfil de usuario -->
+                <div class="profile">
+
+                    <!-- Avatar -->
+                    <div class="avatar"></div>
+
+                    <!-- Detalles -->
+                    <div class="details">
+                        <p class="name">Carlos Alcalá</p>
+                        <p class="profesion">UX/UI Designer</p>
+                    </div>
+                   
+                </div>
+                <!-- Fin perfil de usuario -->
+
+                <!-- Inicio navegación -->
+                <div class="nav">
+
+                    <!-- Inicio secciones -->
+                    <div class="sections">
+
+                        <!-- Inicio sección home -->
+                        <div class="section">
+                            <p class="name">Home</p>
+
+                            <!-- Inicio Links de navegación -->
+                            <ul>
+
+                                <!-- Link Overview -->
+                                <li>
+                                    <a href="#" class="active">
+                                        <i class="iconsax" icon-name="grid-apps-2"></i>
+                                        <span class="navname">Overview</span>
+                                    </a>
+                                </li>
+
+                                 <!-- Link Scheduled -->
+                                 <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="calendar-1"></i>
+                                        <span class="navname">Scheduled</span>
+                                    </a>
+                                </li>
+
+                                 <!-- Link E-mails -->
+                                <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="mail"></i>
+                                        <span class="navname">Emails</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <!-- Fin links de navegación -->
+
+
+                        </div>
+                        <!-- Fin sección home -->
+
+                        <!-- Inicio sección customer -->
+                        <div class="section">
+                            <p class="name">Customer</p>
+
+                            <!-- Inicio Links de navegación -->
+                            <ul>
+
+                                <!-- Link Projects -->
+                                <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="folder-open"></i>
+                                        <span class="navname">Projects</span>
+                                    </a>
+                                </li>
+
+                                 <!-- Link Released -->
+                                 <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="task-list-square"></i>
+                                        <span class="navname">Released</span>
+                                    </a>
+                                </li>
+
+                                 <!-- Link Comments -->
+                                <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="messages-1"></i>
+                                        <span class="navname">Comments</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <!-- Fin links de navegación -->
+
+
+                        </div>
+                        <!-- Fin sección customer -->
+
+                        <!-- Inicio sección media -->
+                        <div class="section">
+                            <p class="name">Media</p>
+
+                            <!-- Inicio Links de navegación -->
+                            <ul>
+
+                                <!-- Link Images -->
+                                <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="picture"></i>
+                                        <span class="navname">Images</span>
+                                    </a>
+                                </li>
+
+                                 <!-- Link Video -->
+                                 <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="play-circle"></i>
+                                        <span class="navname">Video</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Fin links de navegación -->
+
+
+                        </div>
+                        <!-- Fin sección media -->
+
+                        
+
+                    </div>
+                    <!-- Fin secciones -->
+
+                </div>
+                <!-- Fin navegación -->
+
+                <!-- Inicio Preferences -->
+                <div class="nav">
+
+                    <!-- Inicio secciones -->
+                    <div class="sections">
+
+                        <!-- Inicio sección Preferences -->
+                        <div class="section">
+                            <p class="name">Preferences</p>
+
+                            <!-- Inicio Links de navegación -->
+                            <ul>
+
+                                <!-- Link Help center -->
+                                <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="info-circle"></i>
+                                        <span class="navname">Help</span>
+                                    </a>
+                                </li>
+
+                                 <!-- Link Settings -->
+                                 <li>
+                                    <a href="#">
+                                        <i class="iconsax" icon-name="nut"></i>
+                                        <span class="navname">Settings</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <!-- Fin links de navegación -->
+
+
+                        </div>
+                        <!-- Fin sección Preferences -->
+
+                    </div>
+                    <!-- Fin secciones -->
+
+                </div>
+                <!-- Fin Preferences -->
+
+
+            </div>
+            <!-- Fin Sidebar -->
+
+        </div>
+        <!-- Fin container -->
+
+        <!-- Jquery -->
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+        integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+    </body>
+    <!-- Fin Body -->
+
+
+</html>
+
+
+
